@@ -1,5 +1,9 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(array_in)
+  i = 0
+  while array_in[i]
+    puts "#{i+1} #{array_in[i]}\n"
+    i +=1
+  end 
 end
 
 def summon_captain_planet# code an argument here
