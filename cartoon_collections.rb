@@ -6,9 +6,14 @@ def roll_call_dwarves(array_in)
   end 
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet (array_in)
+  array_out = []
+  for i in array_in
+    array_out = array_out.append(i.capitalize+"!")
+  end
+    return array_out
 end
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
