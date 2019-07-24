@@ -27,7 +27,15 @@ end
 
 
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese (array_in)
+  if array_in.include?("gouda")
+    return "gouda"
+  end
+  if array_in.include?("cheddar")
+    return "cheddar"
+  end
+  if array_in.include?("camembert")
+    return "camembert"
+  end
 end
+
