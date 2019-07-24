@@ -8,11 +8,12 @@ end
 
 def summon_captain_planet (array_in)
   array_out = []
-  for i in array_in
-    array_out = array_out.append(i.capitalize+"!")
+  array_in.each do |str|
+  array_out= array_out.append(str.capitalize+"!")
   end
     return array_out
 end
+
 
 
 def long_planeteer_calls# code an argument here
